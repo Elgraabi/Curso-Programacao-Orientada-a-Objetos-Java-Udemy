@@ -1,0 +1,41 @@
+package model.entities;
+
+public class Invoice {
+	
+	// Atributos
+	private Double basicPayment;
+	private Double tax;
+	
+	// Metodos Especiais
+	public Double getTotalPayment() {
+		return this.getBasicPayment() + this.getTax();
+	}
+
+	// Metodos Especificos
+	public Invoice() {
+		super();
+	}
+
+	public Invoice(Double basicPayment, Double tax) {
+		super();
+		this.basicPayment = basicPayment;
+		this.tax = tax;
+	}
+
+	public Double getBasicPayment() {
+		return basicPayment;
+	}
+
+	public void setBasicPayment(Double basicPayment) {
+		this.basicPayment = basicPayment;
+	}
+
+	public Double getTax() {
+		return tax;
+	}
+
+	public void setTax(Double tax) {
+		this.tax = tax;
+	}
+	
+}
