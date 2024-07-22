@@ -4,8 +4,8 @@ import demo.dao.jdbc.db.DB;
 import demo.dao.jdbc.model.impl.SellerDaoJDBC;
 
 public class DaoFactory {
-
-	public static SellerDao createSellerDao( ) {
+	
+	public static SellerDao createSellerDao() {
 		return new SellerDaoJDBC(DB.getConnection());
 	}
 	
