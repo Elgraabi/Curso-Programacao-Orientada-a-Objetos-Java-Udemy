@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
-    <fullyQualifiedTypeName name="java.sql.DriverAction"/>
-    <fullyQualifiedTypeName name="demo.dao.jdbc.DbException"/>
-    <fullyQualifiedTypeName name="demo.dao.jdbc.model.impl.SellerDaoJDBC"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicDesktopIconUI"/>
-    <fullyQualifiedTypeName name="demo.dao.jdbc.model.impl.DepartmentDaoJDBC"/>
-    <fullyQualifiedTypeName name="demo.dao.jdbc.model.dao.DepartmentDao"/>
-    <fullyQualifiedTypeName name="demo.dao.jdbc.model.dao.DaoFactory"/>
-    <fullyQualifiedTypeName name="demo.dao.jdbc.model.entities.Department"/>
-    <fullyQualifiedTypeName name="demo.dao.jdbc.model.entities.Seller"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="demo.dao.jdbc.model.dao.SellerDao"/>
     <fullyQualifiedTypeName name="demo.dao.jdbc.db.DbException"/>
@@ -20,7 +10,6 @@
     <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="com.praticando.model.dao.SellerDao"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="com.praticando.model.impl.SellerDaoImpl"/>
@@ -35,14 +24,10 @@
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="com.praticando.db.DbException"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="com.praticando.db.DB"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Profile"/>
@@ -51,8 +36,6 @@
     <fullyQualifiedTypeName name="com.educandoweb.course.respositories.UserRepository"/>
     <fullyQualifiedTypeName name="com.educandoweb.course.entities.User"/>
     <fullyQualifiedTypeName name="com.educandoweb.course.services.UserService"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
@@ -60,4 +43,21 @@
     <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
     <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="com.educandoweb.course.respositories.OrderRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.educandoweb.course.entities.Order"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonFormat"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.jsonFormatVisitors.JsonFormatTypes"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonFormat.Shape"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="com.educandoweb.course.entities.enums.OrderStatus"/>
 </qualifiedTypeNameHistroy>
