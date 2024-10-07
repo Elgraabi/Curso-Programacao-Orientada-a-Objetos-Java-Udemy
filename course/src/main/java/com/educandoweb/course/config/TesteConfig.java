@@ -2,6 +2,7 @@ package com.educandoweb.course.config;
 
 import java.time.Instant;
 import java.util.Arrays;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -82,5 +83,6 @@ public class TesteConfig implements CommandLineRunner {
 		o1.setPayment(pay1);
 		
 		orderRepository.save(o1);
+		
 	}
 }
