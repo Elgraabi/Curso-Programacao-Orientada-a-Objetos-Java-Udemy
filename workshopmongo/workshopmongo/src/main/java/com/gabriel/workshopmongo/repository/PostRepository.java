@@ -8,8 +8,15 @@ import org.springframework.stereotype.Repository;
 import com.gabriel.workshopmongo.domain.Post;
 
 @Repository
-public interface PostRepository extends MongoRepository<Post, String>{
+public interface PostRepository extends MongoRepository<Post, String> {
+
+	/* Forma alternativa de consulta simples
+	 * 
+	 * @Query("{ 'title': { $regex: ?0, $options: 'i' } }")
+	 * List<Post> searchTitle(String text);
+	 * 
+	 */
 	
 	List<Post> findByTitleContainingIgnoreCase(String text);
-	
+
 }
